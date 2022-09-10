@@ -1,0 +1,57 @@
+.telaCadastro{
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    padding: 68px 0 0 0;
+}
+.telaCadastro img{
+    width: 147px;
+    height: 50px;
+}
+.telaCadastro .cadastro input{
+    font-size: 19px;
+    color: #DBDBDB;
+    
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+
+    display: flex;
+
+    width: 303px;
+    height: 45px;
+    margin: 6px 0 6px 0;
+}
+.telaCadastro .cadastro button{
+    font-family: 'Raleway', sans-serif;
+    background-color: #52b6ff;
+    color: #ffffff;
+    font-size: 21px;
+
+    border-radius: 5px;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 303px;
+    height: 45px;
+
+    cursor: pointer;
+}
+.telaCadastro .voltarLogin{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #52b6ff;
+    text-decoration: underline;
+
+    margin-top: 25px;
+
+    cursor: pointer;
+}
