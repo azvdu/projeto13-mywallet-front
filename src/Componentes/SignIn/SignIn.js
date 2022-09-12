@@ -33,8 +33,8 @@ function Login({user}){
            console.log("then test")
            console.log({data})
            user.token = data.token;
-           user.image = data.image;
-           navigate("/home")
+           user.name = data.name;
+           navigate("/wallet")
        })
        requisicao.catch(console.log("catch test"))
     }

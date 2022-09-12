@@ -1,0 +1,62 @@
+.transactionScreen{
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    padding: 68px 0 0 0;
+}
+
+.transactionScreen .header{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 24px;
+    padding: 0 22px;
+    margin-top: 12px;
+    position: fixed;
+    top: 11px;
+}
+
+.transactionScreen .createTransaction input{
+    font-size: 19px;
+    color: #DBDBDB;
+    
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+
+    display: flex;
+
+    width: 303px;
+    height: 45px;
+    margin: 6px 0 6px 0;
+}
+
+.transactionScreen .createTransaction button{
+    font-family: 'Raleway', sans-serif;
+    background-color: #52b6ff;
+    color: #ffffff;
+    font-size: 21px;
+
+    border-radius: 5px;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 303px;
+    height: 45px;
+
+    cursor: pointer;
+}
